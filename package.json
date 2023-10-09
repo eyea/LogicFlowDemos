@@ -1,0 +1,27 @@
+{
+  "name": "logicflowdemos",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^3.0.1",
+    "@logicflow/core": "^1.2.15",
+    "@logicflow/extension": "^1.2.16",
+    "astro": "^3.2.3",
+    "preact": "^10.18.1"
+  },
+  "overrides": {
+    "react": "npm:@preact/compat@latest",
+    "react-dom": "npm:@preact/compat@latest"
+  },
+  "volta": {
+    "node": "20.8.0"
+  }
+}
