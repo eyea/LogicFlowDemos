@@ -4,5 +4,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [preact({ compat: true })]
+  integrations: [preact({ compat: true })],
+  site: 'https://eyea.github.io',
+  base: '/LogicFlowDemos',
 });
