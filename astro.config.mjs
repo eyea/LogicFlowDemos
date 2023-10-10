@@ -6,10 +6,5 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   integrations: [preact({ compat: true })],
   site: 'https://eyea.github.io',
-  base: '/LogicFlowDemos',
-  vite: {
-    ssr: {
-      noExternal: ['@logicflow/core', '@logicflow/extension'],
-    }
-  }
+  base: '/LogicFlowDemos'
 });

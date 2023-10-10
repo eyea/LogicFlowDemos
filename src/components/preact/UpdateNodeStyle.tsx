@@ -1,5 +1,5 @@
 import LogicFlow from "@logicflow/core";
-import "@logicflow/core/dist/style/index.css";
+// import "@logicflow/core/dist/style/index.css";
 import { useEffect, useRef, useState } from "preact/compat";
 import UserTask from "../../common/UserTask";
 
