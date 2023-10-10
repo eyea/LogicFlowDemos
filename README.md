@@ -40,3 +40,10 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## 采坑
+
+本地样式正常，打包后发现有的样式没打进来
+
+1. https://docs.astro.build/zh-cn/guides/styling/#%E9%AB%98%E7%BA%A7
+2. https://docs.astro.build/zh-cn/guides/styling/#%E4%BB%8E-npm-%E5%8C%85%E4%B8%AD%E5%AF%BC%E5%85%A5%E6%A0%B7%E5%BC%8F%E8%A1%A8
